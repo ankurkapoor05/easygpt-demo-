@@ -1,0 +1,14 @@
+-- Simple schema for demo purposes
+CREATE TABLE IF NOT EXISTS users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  username TEXT NOT NULL UNIQUE,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS orders (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  external_id TEXT,
+  provider TEXT,
+  amount REAL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
