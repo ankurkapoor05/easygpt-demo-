@@ -5,4 +5,4 @@
 - "Sync orders from Square for the last 7 days."
 - "Normalize an example DoorDash order payload to our internal format."
 - "Run the 'reconcile-payments' action for provider 'square'."
-- Thanks -  Well Done
+- Thanks - Not  Well Done
