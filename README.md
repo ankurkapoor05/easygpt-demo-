@@ -1,0 +1,1 @@
+Easy GPT is AI reasoning layer for Restaurants, doing workable actions for restaurant owners & providing insights using data from various integration services - Doordash, uber eats, square, clover, toast, etc.  
