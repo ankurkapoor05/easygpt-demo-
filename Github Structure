@@ -1,0 +1,17 @@
+easygpt-demo
+ ├ frontend/        (Next.js app)
+ ├ backend/         (FastAPI app)
+ ├ connectors/      (Square, DoorDash, Uber modules)
+ ├ db/
+ │   ├ migrations/
+ │   └ schema.sql
+ ├ ai/
+ │   ├ prompts/
+ │   ├ tools/
+ │   └ router/
+ ├ jobs/
+ ├ scripts/
+ ├ demo/
+ │   ├ demo_questions.md
+ │   └ demo_dataset.csv
+ └ README.md
